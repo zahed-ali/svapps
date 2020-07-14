@@ -1,0 +1,52 @@
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; 
+}
+li{
+  float: left;
+}
+.navlistone{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding:14px 16px;
+}
+.secondnav{
+  margin-top: 10px;
+}
+.navlist{
+  list-style-type: none;
+  background-color: tomato;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.navitem {
+  float: left;
+}
+.navitem a {
+  color: yellow;
+  padding: 15px 20px;
+  display: block;
+  text-decoration: none;
+}
+.navitem a:hover {
+  color: blue;
+  background-color: violet;
+
+}
+/*table*/
+th,td {
+  padding: 10px;
+  text-align: center;
+}
+th:hover,td:hover {
+  background-color: thistle;
+}
+thead{
+  background-color: turquoise;
+}
